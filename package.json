@@ -1,0 +1,23 @@
+{
+  "name": "generate-ids",
+  "version": "1.0.0",
+  "description": "generate random ids",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseBoga/generate-ids.git"
+  },
+  "keywords": [
+    "random",
+    "ids"
+  ],
+  "author": "Jose Andres Ramirez <joseboga16@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoseBoga/generate-ids/issues"
+  },
+  "homepage": "https://github.com/JoseBoga/generate-ids#readme"
+}
