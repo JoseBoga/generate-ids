@@ -1,12 +1,13 @@
 
 //function generate Ids
 
-function generate(value) {
-	if (value) {
-		value = value || 999999;
+function generate(value, patter) {
+	value = value || 999999;
+	if (patter) {
+		var id = Math.floor(Math.random() * value) + 1;
+		return patter + id;
+	} else {
 		return Math.floor(Math.random() * value) + 1;
-	}else {
-		return Math.floor(Math.random() * 999999) + 1;
 	}
 }
 
